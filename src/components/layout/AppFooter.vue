@@ -39,7 +39,7 @@
       <!-- Bottom -->
       <div class="mt-16 pt-8 border-t border-ink-800 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p class="text-ink-500 text-xs tracking-wider">
-          © 2024 塔圖聚落 Tattoo Settlement. All rights reserved.
+          © 2026 塔圖聚落 Tattoo Settlement. All rights reserved.
         </p>
         <p class="text-ink-600 text-xs">
           皮膚是最真實的畫布
