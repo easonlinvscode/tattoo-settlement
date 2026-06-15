@@ -70,11 +70,20 @@
       </div>
     </div>
 
+    <!-- Mobile Menu Backdrop -->
+    <Transition name="overlay-fade">
+      <div
+        v-if="mobileOpen"
+        class="md:hidden fixed inset-0 top-16 bg-black/40 z-40"
+        @click="mobileOpen = false"
+      ></div>
+    </Transition>
+
     <!-- Mobile Menu -->
     <Transition name="mobile-menu">
       <div
         v-if="mobileOpen"
-        class="md:hidden bg-ink-900/98 border-b border-ink-700 px-4 py-6"
+        class="md:hidden relative z-50 bg-black border-b border-ink-700 px-4 py-6"
       >
         <nav class="space-y-4 mb-6">
           <RouterLink
@@ -97,7 +106,7 @@
 </template>
 
 <script setup>
-import { ref, watch } from 'vue'
+import { ref, watch, onBeforeUnmount } from 'vue'
 import { RouterLink } from 'vue-router'
 import { useScroll } from '@vueuse/core'
 import { useAuthStore } from '@/stores/auth'
@@ -110,6 +119,15 @@ const scrolled = ref(false)
 
 watch(y, (val) => {
   scrolled.value = val > 40
+})
+
+// 開啟手機選單時鎖定頁面滾動，關閉時還原
+watch(mobileOpen, (open) => {
+  document.body.style.overflow = open ? 'hidden' : ''
+})
+
+onBeforeUnmount(() => {
+  document.body.style.overflow = ''
 })
 
 const navLinks = [
@@ -127,5 +145,14 @@ const navLinks = [
 .mobile-menu-leave-to {
   opacity: 0;
   transform: translateY(-8px);
+}
+
+.overlay-fade-enter-active,
+.overlay-fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+.overlay-fade-enter-from,
+.overlay-fade-leave-to {
+  opacity: 0;
 }
 </style>
