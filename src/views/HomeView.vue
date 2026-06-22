@@ -5,7 +5,7 @@
       <!-- Background -->
       <div class="absolute inset-0">
         <img
-          src="https://picsum.photos/seed/hero-bg/1920/1080"
+          src="https://images.unsplash.com/photo-1654338774369-79e915e94ed1?auto=format&fit=crop&w=1920&h=1080&q=80"
           alt="Hero"
           class="w-full h-full object-cover"
         />
@@ -116,7 +116,7 @@
     <section class="relative py-32 overflow-hidden">
       <div class="absolute inset-0">
         <img
-          src="https://picsum.photos/seed/cta-bg/1920/600"
+          src="https://images.unsplash.com/photo-1775134061575-80f4bbd1a189?auto=format&fit=crop&w=1920&h=600&q=80"
           alt=""
           class="w-full h-full object-cover opacity-30"
         />

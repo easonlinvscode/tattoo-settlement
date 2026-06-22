@@ -3,7 +3,7 @@
     <!-- Left: Visual Panel -->
     <div class="hidden lg:flex lg:w-1/2 relative overflow-hidden">
       <img
-        src="https://picsum.photos/seed/auth-bg/900/1200"
+        src="https://images.unsplash.com/photo-1753260937548-94b93659d889?auto=format&fit=crop&w=900&h=1200&q=80"
         alt="Tattoo art"
         class="absolute inset-0 w-full h-full object-cover opacity-60"
       />

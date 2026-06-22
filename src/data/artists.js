@@ -10,7 +10,7 @@ export const mockArtists = [
       '深耕刺青藝術超過八年，擅長融合東方傳統紋樣與現代美學。每一針都是對身體藝術的致敬，在皮膚上留下屬於你獨一無二的故事。',
     priceRange: { min: 5000, max: 30000 },
     isAvailable: true,
-    coverImage: 'https://picsum.photos/seed/artist1cover/1200/500',
+    coverImage: 'https://images.unsplash.com/photo-1639432179924-a587bc131f13?auto=format&fit=crop&w=1200&h=500&q=80',
     socialLinks: {
       instagram: 'https://instagram.com',
       facebook: null,
@@ -30,7 +30,7 @@ export const mockArtists = [
       '專注日式傳統與和風美學，大型作品為主。十年以上經驗，全彩大背、胸口、袖子設計，擅長將龍虎等傳統元素重新詮釋。',
     priceRange: { min: 8000, max: 80000 },
     isAvailable: true,
-    coverImage: 'https://picsum.photos/seed/artist2cover/1200/500',
+    coverImage: 'https://images.unsplash.com/photo-1775135544885-e468e7a36841?auto=format&fit=crop&w=1200&h=500&q=80',
     socialLinks: {
       instagram: 'https://instagram.com',
       facebook: 'https://facebook.com',
@@ -50,7 +50,7 @@ export const mockArtists = [
       '細線刺青的忠實信徒。花卉、幾何、文字，用最細膩的線條勾勒出你心中的意象。作品風格輕盈飄逸，非常適合第一次嘗試刺青的朋友。',
     priceRange: { min: 3000, max: 15000 },
     isAvailable: true,
-    coverImage: 'https://picsum.photos/seed/artist3cover/1200/500',
+    coverImage: 'https://images.unsplash.com/photo-1605647533135-51b5906087d0?auto=format&fit=crop&w=1200&h=500&q=80',
     socialLinks: {
       instagram: 'https://instagram.com',
       facebook: null,
@@ -70,7 +70,7 @@ export const mockArtists = [
       '黑暗美學的實踐者。偏愛大面積黑色填充、幾何暗黑風格。適合想要強烈視覺衝擊感的你，讓皮膚成為黑暗藝術的畫布。',
     priceRange: { min: 4000, max: 40000 },
     isAvailable: false,
-    coverImage: 'https://picsum.photos/seed/artist4cover/1200/500',
+    coverImage: 'https://images.unsplash.com/photo-1639432358985-15129a8c4048?auto=format&fit=crop&w=1200&h=500&q=80',
     socialLinks: {
       instagram: 'https://instagram.com',
       facebook: null,
@@ -90,7 +90,7 @@ export const mockArtists = [
       '以水彩為靈感，在皮膚上暈染出夢幻色彩。擅長動物、人像、幻想系題材，作品如同流動的水墨畫，每件都是不可複製的當代藝術。',
     priceRange: { min: 5000, max: 25000 },
     isAvailable: true,
-    coverImage: 'https://picsum.photos/seed/artist5cover/1200/500',
+    coverImage: 'https://images.unsplash.com/photo-1665085326630-b01fea9a613d?auto=format&fit=crop&w=1200&h=500&q=80',
     socialLinks: {
       instagram: 'https://instagram.com',
       facebook: 'https://facebook.com',
@@ -110,7 +110,7 @@ export const mockArtists = [
       '以數學之美構建皮膚上的神聖幾何。點刺、線條、曼陀羅，追求純粹的幾何完美。每件作品都是精密計算與手工執行的完美結合。',
     priceRange: { min: 3500, max: 20000 },
     isAvailable: true,
-    coverImage: 'https://picsum.photos/seed/artist6cover/1200/500',
+    coverImage: 'https://images.unsplash.com/photo-1639432358785-4d4b57b2d45e?auto=format&fit=crop&w=1200&h=500&q=80',
     socialLinks: {
       instagram: 'https://instagram.com',
       facebook: null,
